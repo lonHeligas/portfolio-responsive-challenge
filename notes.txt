@@ -1,0 +1,8 @@
+Header
+Title
+Menu
+
+Portfolio
+  Items in the Portfolio
+Footer
+  contact info
