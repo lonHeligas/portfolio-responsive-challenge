@@ -9,37 +9,48 @@ header {
   margin: 0px;
 }
 
-nav {
-  display: inline;
+menu {
+  display:flex;
+  justify-content: space-between;  
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
 h1 {
+  display: block;
   font-size: 4rem;
-  font-weight: bold;
-  
+  font-weight: bold;  
+  background-color: rgb(0, 255, 255);
 }
+
 nav {   
+  font-size: 2rem;
   list-style: none;  
   color: white;   
-  width: 100%;
-  display: inline-flex;
-  flex-direction: row-reverse;
+  margin-right: 100px;
+  /* width: 100%; */
+  /* display: inline-flex;
+  flex-grow: 0;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-content: stretch;
-  align-items: flex-start; 
-  
+  align-items: flex-start;    */
+}
+
+
+nav a {
+  font-size: 2.25rem;
 }
 
 nav section {
-  margin-left: 1.75rem;  
-  border: solid;
-  
-  border-color: black;
+  margin-left: 1.75rem;    border: solid;  
+  border-color: red;
   border-bottom: 0px;
   border-left: 0px; 
   border-right: 0px;
-  border-radius: 10px; 
+  /* border-radius: 10px;  */
 }
 
 nav section header {
@@ -53,12 +64,17 @@ main {
 }
 
 main section h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-main section content {}
-
-main section content p {
+main section p {
   font-size: 1.5rem;
 }
+
+main section content {
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+}
+
 
