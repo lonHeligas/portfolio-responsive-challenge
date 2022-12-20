@@ -9,56 +9,70 @@
 </head>
 
 <body>
-  <header class="menu">  
-    <menu>
-        <h1>Lon Heligas</h1>           
+  <div id="viewport">  
+    <header>
+      <div>
+        <h1>Lon Heligas</h1> 
+      </div>
       <nav>
-        <a href="#about-section">About Me</a>
+        <a href="#about-section" >About Me</a>
         <a href="#work-section">Work</a>
         <a href="#contact-section">Contact Me</a>
         <a href="#resume-section">Resume</a>        
-      </nav>
-    </menu>
-    <section>
-      <h2>No matter where you go...there you are.</h2>
-    </section>
-  </header>   
-  <main>
-    <section>
-      <label>
-        <h3 id="about-section">About Me</h3>
-      </label>
-      <content>
-          <about>            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit mollitia dolorum placeat laudantium. Neque dolor ea exercitationem quisquam illum! Veritatis et exercitationem quam maiores esse voluptatem, voluptas minima iure.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque recusandae error molestiae ipsum, iste eos quas labore? Doloribus ullam doloremque illo atque numquam iste nesciunt repellendus. Aliquid, ipsam magni? Sunt!</p>
-          </about>
-      </content>
-    </section>
-    <section>
-      <label>
+      </nav>      
+    </header>    
+  </div>   
+
+  <!-- this is the hero area with a background image and a subtitle -->
+  <div class="subtitle">
+    <h2>No matter where you go...there you are.</h2>
+  </div>
+
+  <section class="about">
+    <div class="section-title">
+      <h3 id="about-section">About Me</h3>
+    </div>
+    <div class="section-content bio">                      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis suscipit mollitia dolorum placeat laudantium. Neque dolor ea exercitationem quisquam illum! Veritatis et exercitationem quam maiores esse voluptatem, voluptas minima iure.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque recusandae error molestiae ipsum, iste eos quas labore? Doloribus ullam doloremque illo atque numquam iste nesciunt repellendus. Aliquid, ipsam magni? Sunt!</p>          
+    </div>
+  </section>
+
+    <section class="work">
+      <div class="section-title">
         <h3 id="work-section">Work</h3>  
-      </label>              
-      <content>
-        <h4>Item 1</h4>
-        <h4>Item 2</h4>
-        <h4>Item 3</h4>
-        <h4>Item 4</h4>
-        <h4>Item 5</h4>
-      </content>
+      </div>              
+      <div class="section-content work-items">
+        <div class="main-item item">
+          <div class="title">1</div>
+        </div>
+        <div class="item">
+          <div class="title">2</div>
+        </div>
+        <div class="item">
+          <div class="title">3</div>
+        </div>
+        <div class="item">
+          <div class="title">4</div>
+        </div>
+        <div class="item">
+          <div class="title">5</div>
+        </div>
+      </div>
     </section>
-    <section>
-      <label>
+
+    <section class="contact">
+      <div class="section-title">
         <h3 id="contact-section">Contact Me</h3>
-      </label>
-      <content>
-        <h4>Item 1</h4>
-        <h4>Item 2</h4>
-        <h4>Item 3</h4>
-        <h4>Item 4</h4>
-      </content>
+      </div>
+      <div class="section-content contact-info">
+        <span>651.253.4403</span>
+        <span>lon.heligas@gmail.com</span>
+        <span>Github</span>
+        <span>Resume</span>
+      </div>
     </section>
-  </main>
+  
 </body>
 
 
