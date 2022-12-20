@@ -29,6 +29,12 @@ header div {
   padding-right: 30px;
 }
 
+nav { 
+  display: flex; 
+  flex-wrap: wrap;
+  padding-right: 20px;
+}
+
 header nav a {
   /* transition: 1s; */
   font-size: 30px;
@@ -43,13 +49,14 @@ header nav a {
   margin-right: .75rem;    
 }
 
-header nav a:hover {  
+/* header nav a:hover {  
   border-bottom: 2px solid red;
   border-top: 2px solid red;   
-}
+} */
 
-header div h1 {
+header div h1 {  
   color: blue;
+  background-color: green;
   font-size: 40px;
 }
 
@@ -70,9 +77,6 @@ header div h1 {
   background-color: purple;
 }
 
-nav {
-  padding-right: 120px;
-}
 
 nav ul {
   margin: 0;
@@ -181,9 +185,18 @@ div.contct-info a:hover {
 
 /* can use flex grow and flex shrink too */
 /* it can control the size of the boxes how they shrink when */
-
+@media screen and (max-width: 1000px) {
+  header {
+    height:170px
+  }
+}
 
 @media screen and (max-width: 600px) {
+  header {
+    height:270px
+  }
+  
+  
   section {
     width:90%;
     flex-direction: column;   
@@ -204,12 +217,23 @@ div.contct-info a:hover {
     width: 100%;
   }
 
+  /* div.work-items .item {  
+    width: 30%;  
+  }   */
 
-header nav a {
-  padding: 0;
-  border: none;
+  header nav a {
+    padding: 0;
+    border: none;
+  }
 }
 
+@media screen and (max-width: 390px){
+  nav { 
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 120px;
+  }
 }
 
 
