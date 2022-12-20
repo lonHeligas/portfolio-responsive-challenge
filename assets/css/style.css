@@ -19,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 header div {
@@ -34,11 +35,11 @@ header nav a {
   /* outline: 2px solid red;
    */
   text-decoration: none;
-  padding: 10px 5px 10px 5px;  
+  padding: 5px 5px 5px 5px;  
   /* padding-left: .2rem;
   padding-right: .2rem; */
-  border-bottom: 2px solid blue;
-  border-top: 2px solid blue;
+  /* border-bottom: 2px solid blue;
+  border-top: 2px solid blue; */
   margin-right: .75rem;    
 }
 
@@ -130,7 +131,7 @@ div.work-items .item {
 
 .item .tag{
   text-align: left;
-  width: 150px;
+  width: dynamic;
   border-radius: 5px;
   margin: 5px;
   padding: 5px;  
@@ -169,8 +170,8 @@ div.contact-info a {
   text-decoration: none;
   font-size: 20px;
   padding: 10px 0;  
-  border-bottom: 2px solid blue;
-  border-top: 2px solid blue;
+  /* border-bottom: 2px solid blue;
+  border-top: 2px solid blue; */
 }
 
 div.contct-info a:hover {  
@@ -188,7 +189,7 @@ div.contct-info a:hover {
     flex-direction: column;   
   }
 
-  section div.section-title {
+    section div.section-title {
     width: 100%;
     border-right: none;
     border-bottom: 5px solid blue; 
@@ -202,6 +203,13 @@ div.contct-info a:hover {
   div.work-items div{
     width: 100%;
   }
+
+
+header nav a {
+  padding: 0;
+  border: none;
+}
+
 }
 
 
