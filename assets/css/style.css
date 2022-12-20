@@ -28,6 +28,9 @@ header div {
 }
 
 header nav a {
+  
+
+  transition: 1s;
   font-size: 30px;
   /* outline: 2px solid red;
    */
@@ -39,18 +42,24 @@ header nav a {
   padding-left: .5rem;
 }
 
+header nav a:hover {  
+  border-bottom: 2px solid red;
+  border-top: 2px solid red; 
+  
+}
+
 header div h1 {
   color: blue;
   font-size: 40px;
 }
 
-.subtitle {
+.subheading {
   margin-top: 0;
   background-color: purple;
-  height:150px;
+  height: 150px;
 }
 
-.subtitle h2 {
+.subheading h2 {
   font-size: 30px;
   background-color: purple;
 }
@@ -85,8 +94,7 @@ section {
 
 }
 
-section div.section-title{
-  
+section div.section-title{  
   width: 25%;
   border-right: 5px solid blue;
   text-align: right;
@@ -105,13 +113,37 @@ section div.section-content {
 div.work-items {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
-div.work-items div {
+div.work-items .item {
+  /* margin: 7px; */
   background-color: grey;
   width: 50%;
+  /* flex: 50%; */
   height: 200px;
   outline: 2px solid red;
+}
+
+.item .tag{
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;  
+  background-color: purple;  
+  position: absolute;
+  /* outline: 2px solid red; */
+}
+
+.item .tag .title {
+  font-size: 22px;
+  font-weight: bolder;
+  
+}
+
+.item .tag .subtitle {
+  font-size: 18px;
 }
 
 div.work-items div.main-item {
