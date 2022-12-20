@@ -13,6 +13,7 @@ html, body {
 }
 
 header {
+  /* position: fixed; */
   background-color: #333;
   height: 120px;
   display: flex;
@@ -28,9 +29,7 @@ header div {
 }
 
 header nav a {
-  
-
-  transition: 1s;
+  /* transition: 1s; */
   font-size: 30px;
   /* outline: 2px solid red;
    */
@@ -60,6 +59,12 @@ header div h1 {
 }
 
 .subheading h2 {
+  font-style: oblique;
+  position: relative;
+  margin: auto;  
+  padding-left: 100px;
+  padding-top: 100px;
+  text-align: bottom;
   font-size: 30px;
   background-color: purple;
 }
@@ -113,20 +118,18 @@ section div.section-content {
 div.work-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 13px;
 }
 
-div.work-items .item {
-  /* margin: 7px; */
+div.work-items .item {  
   background-color: grey;
-  width: 50%;
-  /* flex: 50%; */
+  width: 49%;  
   height: 200px;
   outline: 2px solid red;
 }
 
 .item .tag{
-  text-align: center;
+  text-align: left;
   width: 150px;
   border-radius: 5px;
   margin: 5px;
@@ -137,12 +140,16 @@ div.work-items .item {
 }
 
 .item .tag .title {
+  background-color: purple;  
+  margin: 5px;
   font-size: 22px;
   font-weight: bolder;
   
 }
 
 .item .tag .subtitle {
+  background-color: purple;  
+  margin: 5px;
   font-size: 18px;
 }
 
@@ -158,11 +165,17 @@ div.contact-info {
   padding-left: 2rem;
 }
 
-div.contact-info span {
+div.contact-info a {
+  text-decoration: none;
   font-size: 20px;
   padding: 10px 0;  
   border-bottom: 2px solid blue;
   border-top: 2px solid blue;
+}
+
+div.contct-info a:hover {  
+    border-bottom: 2px solid red;
+    border-top: 2px solid red; 
 }
 
 /* can use flex grow and flex shrink too */
