@@ -34,17 +34,17 @@ header nav a {
   /* outline: 2px solid red;
    */
   text-decoration: none;
-  padding: 10px 0;  
+  padding: 10px 5px 10px 5px;  
+  /* padding-left: .2rem;
+  padding-right: .2rem; */
   border-bottom: 2px solid blue;
   border-top: 2px solid blue;
   margin-right: .75rem;    
-  padding-left: .5rem;
 }
 
 header nav a:hover {  
   border-bottom: 2px solid red;
-  border-top: 2px solid red; 
-  
+  border-top: 2px solid red;   
 }
 
 header div h1 {
