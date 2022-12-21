@@ -120,17 +120,46 @@ section div.section-content {
   width: 75%;  
 }
 
+
+
 div.work-items {
   display: flex;
   flex-wrap: wrap;
   gap: 13px;
 }
 
+#one {
+  background-image: url(../images/clock-image.jpg);
+  background-size: 800px;
+  background-position: center;
+  
+}
+#two {
+  background-image: url(../images/sky-image.jpg);
+  background-size: 800px;
+  background-position: center;
+}
+#three {
+  background-image: url(../images/cool-app.jpg);
+  background-size: 360px;
+  background-position: center;
+}
+#four {
+  background-image: url(../images/eclipse.jpg);
+  background-size: 800px;
+  background-position: center;
+}
+#five {
+  background-image: url(../images/galactic-trading.jpg);
+  background-size: 350px;
+  background-position: center;
+}
+
 div.work-items .item {  
   background-color: grey;
   width: 49%;  
   height: 200px;
-  outline: 2px solid red;
+  outline: 5px solid red;
 }
 
 .item .tag{
