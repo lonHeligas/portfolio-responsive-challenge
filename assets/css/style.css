@@ -4,10 +4,10 @@
   color: rgb(255, 255, 255);
   box-sizing: border-box;
   font-size: 16px;
-  background-color: grey;
-  --primary-color: #B205FA;
-  --secondary-color:#FA05C7;
-  --teriary-color:#3805FA;
+  background-color: #730064;
+  --primary-color: #730064;
+  --secondary-color:#73002B;
+  --teriary-color:#490073;
 
 }
 /* this removes margin and padding on the browser */
@@ -59,7 +59,7 @@ header nav a {
 } */
 
 header div h1 {  
-  color: blue;
+  color: white;
   background-color: green;
   font-size: 40px;
 }
@@ -115,14 +115,14 @@ section {
 
 section div.section-title{  
   width: 25%;
-  border-right: 5px solid blue;
+  border-right: 5px solid white;
   text-align: right;
   padding-right: 10px;
 }
 
 section div.section-title h3 {
   font-size: 40px;
-  color: blue;
+  color: white;
 }
 
 section div.section-content {
@@ -169,7 +169,7 @@ div.work-items .item {
   background-color: grey;
   width: 49%;  
   height: 200px;
-  outline: 5px solid red;
+  outline: 5px solid var(--secondary-color);
 }
 
 div.work-items .item.item:hover {
@@ -184,13 +184,13 @@ div.work-items .item.item:hover {
   border-radius: 5px;
   margin: 5px;
   padding: 5px;  
-  background-color: purple;  
+  background-color: var(--primary-color);
   position: absolute;
   /* outline: 2px solid red; */
 }
 
 .item .tag .title {
-  background-color: purple;  
+  background-color: var(--primary-color);  
   margin: 5px;
   font-size: 22px;
   font-weight: bolder;
@@ -198,7 +198,7 @@ div.work-items .item.item:hover {
 }
 
 .item .tag .subtitle {
-  background-color: purple;  
+  background-color: var(--primary-color);  
   margin: 5px;
   font-size: 18px;
 }
@@ -259,7 +259,7 @@ div.contct-info a:hover {
     section div.section-title {
     width: 100%;
     border-right: none;
-    border-bottom: 5px solid blue; 
+    border-bottom: 5px solid white; 
     text-align: left;
   }
   
