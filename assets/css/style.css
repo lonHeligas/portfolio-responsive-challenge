@@ -179,12 +179,20 @@ div.contact-info a {
 }
 
 div.contct-info a:hover {  
-    border-bottom: 2px solid red;
-    border-top: 2px solid red; 
+  border-bottom: 2px solid red;
+  border-top: 2px solid red; 
 }
 
 /* can use flex grow and flex shrink too */
 /* it can control the size of the boxes how they shrink when */
+@media screen and (max-width: 1281px){
+  div.work-items .item {
+    width: 100%;
+  }
+
+}
+
+
 @media screen and (max-width: 1000px) {
   header {
     height:170px
@@ -208,7 +216,7 @@ div.contct-info a:hover {
     border-bottom: 5px solid blue; 
     text-align: left;
   }
-
+  
   section div.section-content {
     width: 100%;    
   }
@@ -216,24 +224,55 @@ div.contct-info a:hover {
   div.work-items div{
     width: 100%;
   }
-
+  
   /* div.work-items .item {  
     width: 30%;  
   }   */
-
+  
   header nav a {
     padding: 0;
     border: none;
   }
+  div.contact-info {
+    display:flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:540px){  
+    .item .tag {
+      width: 160px;      
+    }
+    div.work-items .item {
+      width: 100%;
+    }
+
+
+
 }
 
 @media screen and (max-width: 390px){
+
+  .item .tag {
+    width: 160px;
+  }
+
   nav { 
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: 120px;
+    padding-right: 180px;
   }
+
+  .subheading h2 {
+    padding-top: 100px;
+    font-size: 20px;
+    /* position: absolute; */
+    padding-left: 0px;
+    width: 100%
+
+  }
+
 }
 
 
