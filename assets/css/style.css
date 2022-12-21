@@ -149,7 +149,8 @@ div.work-items {
 }
 #three {
   background-image: url(../images/cool-app.jpg);
-  background-size: 360px;
+  background-size: cover;
+  /* background-size: 360px; */
   background-position: center;
 }
 #four {
@@ -159,7 +160,7 @@ div.work-items {
 }
 #five {
   background-image: url(../images/galactic-trading.jpg);
-  background-size: 350px;
+  background-size: cover;  
   background-position: center;
 }
 
