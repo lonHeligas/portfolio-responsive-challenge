@@ -70,10 +70,8 @@ header div h1 {
   background-image: url(../images/hero-image-flipped.jpg);
   background-size: 25%;
   background-position-x: 1230px;
-  background-position-y: 0px;
-  /* background-size: cover; */
+  background-position-y: 0px;  
  background-repeat: no-repeat;
-  
 
   font-style: oblique;
   position: relative;
@@ -109,7 +107,6 @@ section {
   justify-content: flex-start;
   align-items: stretch;
   margin-bottom: 12px;
-
 }
 
 section div.section-title{  
@@ -127,8 +124,6 @@ section div.section-title h3 {
 section div.section-content {
   width: 75%;  
 }
-
-
 
 div.work-items {
   display: flex;
@@ -165,13 +160,21 @@ div.work-items {
 }
 
 div.work-items .item {  
+  transition: .75s;
+  opacity: 50%;
   background-color: grey;
   width: 49%;  
   height: 200px;
   outline: 5px solid red;
 }
 
+div.work-items .item.item:hover {
+  transition: .75s;
+  opacity: 100%;
+}
+
 .item .tag{
+  
   text-align: left;
   width: dynamic;
   border-radius: 5px;
@@ -204,6 +207,7 @@ div.contact-info {
   display: flex;
   justify-content: space-between;
   align-items: center; 
+  flex-wrap: wrap;
   margin-right: 1rem;    
   padding-left: 2rem;
 }
@@ -211,7 +215,7 @@ div.contact-info {
 div.contact-info a {
   text-decoration: none;
   font-size: 20px;
-  padding: 10px 0;  
+  padding: 15px 10px 15px 0;  
   /* border-bottom: 2px solid blue;
   border-top: 2px solid blue; */
 }
