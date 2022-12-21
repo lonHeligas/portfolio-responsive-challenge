@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-size: 16px;
   background-color: grey;
+  --primary-color: #B205FA;
+  --secondary-color:#FA05C7;
+  --teriary-color:#3805FA;
+
 }
 /* this removes margin and padding on the browser */
 html, body {
@@ -199,7 +203,7 @@ div.work-items .item.item:hover {
   font-size: 18px;
 }
 
-div.work-items div.main-item {
+div.work-items a.main-item {
   width: 100%;
 }
 
