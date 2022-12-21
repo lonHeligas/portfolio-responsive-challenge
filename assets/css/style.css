@@ -16,6 +16,11 @@ html, body {
   padding: 0;
 }
 
+
+.hero img {
+  height: 10%;
+}
+
 header {
   /* position: fixed; */
   background-color: #490073;
@@ -25,6 +30,8 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
+
+
 
 header div {
   background-color: 490073;
@@ -72,17 +79,20 @@ header div h1 {
 }
 
 .subheading h2 {
-  background-image: url(../images/hero-image-flipped.jpg);
-  background-size: 25%;
-  background-position-x: 1230px;
+  background-image: url(../images/subbanner-image.jpg);
+  background-size: cover;  
+  background-position: center;
+  background-color: var(--secondary-color);
+  background-blend-mode: multiply;  
   background-position-y: 0px;  
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
   font-style: oblique;
   position: relative;
   margin: auto;  
   padding-left: 100px;
   padding-top: 100px;
+  padding-bottom: 10px;
   text-align: bottom;
   font-size: 30px;
   background-color: purple;
@@ -250,7 +260,9 @@ div.contct-info a:hover {
   header {
     height:270px
   }
-  
+  .item .tag {
+    width: 160px;
+  }
   
   section {
     width:90%;
@@ -287,8 +299,7 @@ div.contct-info a:hover {
 }
 
 @media screen and (max-width:540px){  
-    .item .tag {
-      width: 160px;      
+          
     }
     div.work-items .item {
       width: 100%;
