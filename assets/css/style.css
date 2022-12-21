@@ -300,14 +300,11 @@ div.contct-info a:hover {
 
 @media screen and (max-width:540px){  
           
-    }
-    div.work-items .item {
-      width: 100%;
-    }
-
-
-
+  div.work-items .item {
+    width: 100%;
+  }
 }
+  
 
 @media screen and (max-width: 390px){
 
