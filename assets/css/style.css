@@ -27,14 +27,14 @@ header {
   flex-wrap: wrap;
 }
 
-#hero-pic {
-  padding-left: 200px;
-  height: 50px;
-  background-color: var(--tertiary-color)
-  
+#hero-pic {  
+  height: 80px;
+  background-color: var(--tertiary-color)  
 }
 
 header div {
+  
+  display: inline-block;
   background-color: 490073;
   width: 325px;
   text-align: right;
