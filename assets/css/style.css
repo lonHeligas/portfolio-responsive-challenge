@@ -10,12 +10,11 @@
   --tertiary-color:#490073;
 
 }
-/* this removes margin and padding on the browser */
+
 html, body {
   margin: 0;
   padding: 0;
 }
-
 
 header {
   /* position: fixed; */
@@ -49,12 +48,13 @@ nav {
 }
 
 header nav a {
-  /* background-color: var(--tertiary-color); */  
-  font-size: 30px;  
+  background-color: var(--tertiary-color);    
+  font-size: 30px; 
   text-decoration: none;
   padding: 5px 5px 5px 5px;  
-  border-bottom: 2px solid var(--primary-color);
   margin-right: .75rem;    
+
+  /* border-bottom: 2px solid var(--primary-color); */
   /* padding-left: .2rem;
   padding-right: .2rem; */
   /* border-top: 2px solid blue; */
@@ -89,7 +89,7 @@ header div h1 {
   font-style: oblique;
   position: relative;
   margin: auto;  
-  padding-left: 100px;
+  padding-left: 120px;
   padding-top: 100px;
   padding-bottom: 10px;
   text-align: bottom;
@@ -234,13 +234,7 @@ div.contact-info a {
   border-top: 2px solid blue; */
 }
 
-div.contct-info a:hover {  
-  border-bottom: 2px solid red;
-  border-top: 2px solid red; 
-}
 
-/* can use flex grow and flex shrink too */
-/* it can control the size of the boxes how they shrink when */
 @media screen and (max-width: 1281px){
   div.work-items .item {
     width: 100%;
@@ -253,11 +247,20 @@ div.contct-info a:hover {
   header {
     height:170px
   }
+  section div.section-title h3 {
+    font-size:20px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   header {
     height:270px
+  }
+  .subheading h2 {
+    padding-top: 100px;
+    font-size: 20px;
+    padding-left: 0px;
+    width: 100%
   }
   .item .tag {
     width: 160px;
@@ -302,6 +305,10 @@ div.contct-info a:hover {
   div.work-items .item {
     width: 100%;
   }
+  section div.section-title h3 {
+    font-size: 40px;    
+  }
+
 }
   
 
@@ -323,8 +330,8 @@ div.contct-info a:hover {
     font-size: 20px;
     padding-left: 0px;
     width: 100%
-
   }
+
 
 }
 
