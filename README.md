@@ -53,11 +53,15 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+## Review
 
-## Mock-Up
+You are required to submit the following for review:
 
-The following animation shows the web application's appearance and functionality:
+* The URL of the deployed application.
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+* The URL of the GitHub repository, with a unique name and a README that describes the project.
 
-## t
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+

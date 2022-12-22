@@ -7,7 +7,7 @@
   background-color: #730064;
   --primary-color: #730064;
   --secondary-color:#73002B;
-  --teriary-color:#490073;
+  --tertiary-color:#490073;
 
 }
 /* this removes margin and padding on the browser */
@@ -16,10 +16,6 @@ html, body {
   padding: 0;
 }
 
-
-.hero img {
-  height: 10%;
-}
 
 header {
   /* position: fixed; */
@@ -31,14 +27,19 @@ header {
   flex-wrap: wrap;
 }
 
-
+#hero-pic {
+  padding-left: 200px;
+  height: 50px;
+  background-color: var(--tertiary-color)
+  
+}
 
 header div {
   background-color: 490073;
   width: 325px;
   text-align: right;
   padding-right: 30px;
-  background-color: var(--teriary-color);
+  background-color: var(--tertiary-color);
 }
 
 nav { 
@@ -48,6 +49,7 @@ nav {
 }
 
 header nav a {
+  background-color: var(--tertiary-color);
   /* transition: 1s; */
   font-size: 30px;
   /* outline: 2px solid red;
@@ -56,8 +58,8 @@ header nav a {
   padding: 5px 5px 5px 5px;  
   /* padding-left: .2rem;
   padding-right: .2rem; */
-  /* border-bottom: 2px solid blue;
-  border-top: 2px solid blue; */
+  border-bottom: 2px solid var(--primary-color);
+  /* border-top: 2px solid blue; */
   margin-right: .75rem;    
 }
 
@@ -68,13 +70,13 @@ header nav a {
 
 header div h1 {  
   color: white;
-  background-color: var(--teriary-color);
+  background-color: var(--tertiary-color);
   font-size: 40px;
 }
 
 .subheading {
   margin-top: 0;
-  background-color: var(--teriary-color);
+  background-color: var(--tertiary-color);
   height: 150px;
 }
 
@@ -322,7 +324,6 @@ div.contct-info a:hover {
   .subheading h2 {
     padding-top: 100px;
     font-size: 20px;
-    /* position: absolute; */
     padding-left: 0px;
     width: 100%
 
