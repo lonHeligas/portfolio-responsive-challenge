@@ -33,7 +33,7 @@ header {
 }
 
 header div {
-  
+  /* align-items: center; */
   display: inline-block;
   background-color: 490073;
   width: 325px;
@@ -49,18 +49,15 @@ nav {
 }
 
 header nav a {
-  background-color: var(--tertiary-color);
-  /* transition: 1s; */
-  font-size: 30px;
-  /* outline: 2px solid red;
-   */
+  /* background-color: var(--tertiary-color); */  
+  font-size: 30px;  
   text-decoration: none;
   padding: 5px 5px 5px 5px;  
+  border-bottom: 2px solid var(--primary-color);
+  margin-right: .75rem;    
   /* padding-left: .2rem;
   padding-right: .2rem; */
-  border-bottom: 2px solid var(--primary-color);
   /* border-top: 2px solid blue; */
-  margin-right: .75rem;    
 }
 
 /* header nav a:hover {  
@@ -225,7 +222,7 @@ div.contact-info {
   justify-content: space-between;
   align-items: center; 
   flex-wrap: wrap;
-  margin-right: 1rem;    
+  margin-right: 0rem;    
   padding-left: 2rem;
 }
 
