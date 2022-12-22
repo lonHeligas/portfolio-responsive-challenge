@@ -8,6 +8,7 @@ This assignment was to create a portfolio that had responsive design elements an
 
 [This is the repository for this challenge](https://lonheligas.github.io/portfolio-responsive-challenge/)
 
+Screenshot of the final portfolio:
 ![Screenshot of the final page is as follows:](./assets/images/screenshot.png)
 
 
